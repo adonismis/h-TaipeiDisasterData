@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>颱風防災資訊平台網頁前端實作-練習題</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="blog-header">
+        <div class="col-12 text-center header-bg">
+            <h1 class="py-2 pb-2">台北最新災害資訊</h1>
+        </div>
+    </header>
+
+    <div class="container pt-5">
+        <div class="col-12">
+            <select id="town" class="custom-select custom-select-lg">
+                <option value="--請選擇行政區--">--請選擇行政區--</option>   
+                <option value="萬華區">萬華區</option>
+                <option value="中正區">中正區</option>
+                <option value="大同區">大同區</option>
+                <option value="中山區">中山區</option>
+                <option value="大安區">大安區</option>
+                <option value="南港區">南港區</option>
+                <option value="文山區">文山區</option>
+                <option value="松山區">松山區</option>
+                <option value="信義區">信義區</option>
+                <option value="士林區">士林區</option>
+                <option value="北投區">北投區</option>
+                <option value="內湖區">內湖區</option>    
+            </select>
+            <div class="pb-5"></div>
+            <table id="list" class="table">
+                <thead>
+                <tr>
+                    <th scope="col" width="80">行政區</th>
+                    <th scope="col" width="200">時間</th>
+                    <th scope="col">狀況</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="all.js"></script>
+</body>
+</html>
